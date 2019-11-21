@@ -1,6 +1,7 @@
 import Taro, { Config, Component } from '@tarojs/taro';
 import { View, Text } from '@tarojs/components';
 import './index.scss';
+import { Test } from '@/components/Test';
 
 export default class Index extends Component {
   /**
@@ -28,6 +29,7 @@ export default class Index extends Component {
     return (
       <View className="index">
         <Text>首页!</Text>
+        <Test name="test name" />
       </View>
     );
   }

@@ -19,7 +19,8 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/wxParse/wxParse'
+      'pages/index/index'
+      // 'pages/wxParse/wxParse'
     ],
     window: {
       backgroundTextStyle: 'light',
