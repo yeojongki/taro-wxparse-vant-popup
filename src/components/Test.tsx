@@ -1,3 +1,4 @@
+import Taro from '@tarojs/taro';
 import { View } from '@tarojs/components';
 
 export const Test = Taro.memo(({ name }: { name: string }) => {
